@@ -6,7 +6,7 @@ import SettingsIcon from '@mui/icons-material/Settings'
 const Navbar = ({ user, handleLogout }) => {
 	return (
 		
-			<div className=" w-full flex items-center justify-between h-14 text-white z-10 bg-[#3167b2]">
+			<div className=" w-full flex items-center justify-between h-14 text-white z-10 bg-[#3F51B5]">
 				<div className="font-bold text-2xl cursor-pointer flex items-center font-ari text-white">
 					<span className="w-[5rem]  ">
 						<img

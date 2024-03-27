@@ -22,14 +22,14 @@ const Login = () => {
 			<div className="flex flex-col items-center justify-center px-[2rem] py-8 mx-auto md:h-screen lg:py-0">
 				<div className="regWrapper w-full  rounded-lg shadow border md:mt-0 sm:max-w-md xl:p-0 ">
 					<div className="p-10 space-y-4 md:space-y-6 sm:p-8">
-						<p className=" text-center font-bold  font-play text-blue-600 md:text-[3rem] ">
+						<p className=" text-center font-bold  font-play text-black-600 md:text-[3rem] ">
 							Admin Login
 						</p>
 						<form className="space-y-4 md:space-y-6" action="#">
 							<div>
 								<label
 									for="email"
-									className="block mb-2 text-md font-medium text-gray-900 dark:text-white"
+									className="block mb-2 text-md font-medium text-white-900 dark:text-white"
 								>
 									Email
 								</label>
@@ -37,7 +37,7 @@ const Login = () => {
 									type="email"
 									name="email"
 									id="email"
-									className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+									className="bg-gray-50 border border-gray-300 text-gray-500 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
 									placeholder="name@company.com"
 									required="true"
 									onChange={(e) => setEmail(e.target.value)}
@@ -46,7 +46,7 @@ const Login = () => {
 							<div>
 								<label
 									for="password"
-									className="block mb-2 text-md font-medium text-gray-900 dark:text-white"
+									className="block mb-2 text-md font-medium text-white-900 dark:text-white"
 								>
 									Password
 								</label>
@@ -55,7 +55,7 @@ const Login = () => {
 									name="password"
 									id="password"
 									placeholder="••••••••"
-									className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+									className="bg-gray-50 border border-gray-300 text-gray-500 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
 									required="true"
 									onChange={(e) => setPassword(e.target.value)}
 								/>
@@ -63,7 +63,7 @@ const Login = () => {
 
 							<button
 								onClick={handleClick}
-								className="w-full text-white bg-blue-500 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+								className="w-full text-white bg-blue-500 hover:bg-blue-400  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
 							>
 								Login
 							</button>

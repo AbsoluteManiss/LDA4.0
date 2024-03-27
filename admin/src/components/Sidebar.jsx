@@ -10,12 +10,12 @@ import { Link } from 'react-router-dom'
 export default function Sidebar() {
 	return (
 		<div>
-			<div className="rounded sticky flex flex-col top-14 left-0 w-14 hover:w-60  bg-[#3167b2]  h-[120vh] text-white transition-all duration-300 border-none z-10 sidebar">
+			<div className="rounded sticky flex flex-col top-14 left-0 w-14 hover:w-60  bg-[#3F51B5]  h-[120vh] text-white transition-all duration-300 border-none z-10 sidebar">
 				<div className="overflow-y-auto overflow-x-hidden flex flex-col justify-between flex-grow">
 					<ul className="flex flex-col py-4 space-y-1">
 						<li className="px-5 hidden md:block">
 							<div className="flex flex-row items-center h-8">
-								<div className=" text-sm font-light tracking-wide truncate text-blue-400 uppercase">
+								<div className=" text-sm font-bold tracking-wide truncate text-black uppercase">
 									Main
 								</div>
 							</div>

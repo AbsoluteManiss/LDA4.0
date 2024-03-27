@@ -85,7 +85,7 @@ const UserInfo = () => {
 										</span>
 									</span>
 
-									<span className="userShowInfoTitle tracking-wide truncate">
+									<span className="userShowInfoTitle tracking-wide text-black truncate">
 										{user._id}
 									</span>
 								</div>
@@ -96,7 +96,7 @@ const UserInfo = () => {
 											Member Since:
 										</span>
 									</span>
-									<span className="userShowInfoTitle">
+									<span className="userShowInfoTitle text-black">
 										{moment(user.createdAt).format('MMM DD, YYYY')}
 										{/* 10.12.1999 */}
 									</span>
@@ -109,7 +109,7 @@ const UserInfo = () => {
 											Email:
 										</span>
 									</span>
-									<span className="userShowInfoTitle">{user.email}</span>
+									<span className="userShowInfoTitle text-black">{user.email}</span>
 								</div>
 								<div className="userShowInfo justify-between md:flex">
 									<span className="flex">
@@ -118,7 +118,7 @@ const UserInfo = () => {
 											Phone Number:
 										</span>
 									</span>
-									<span className="userShowInfoTitle">{user.phoneNumber}</span>
+									<span className="userShowInfoTitle text-black">{user.phoneNumber}</span>
 								</div>
 								<div className="userShowInfo justify-between md:flex">
 									<span className="flex">
@@ -127,7 +127,7 @@ const UserInfo = () => {
 											Address:{' '}
 										</span>
 									</span>
-									<span className="userShowInfoTitle">{user.address}</span>
+									<span className="userShowInfoTitle text-black">{user.address}</span>
 								</div>
 							</div>
 						</div>
@@ -247,7 +247,7 @@ const UserInfo = () => {
 							<button
 							
 								onClick={handleUpdate}
-								class="w-full text-white bg-blue-500 hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+								class="w-full text-white bg-blue-500 hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
 							>
 								UPDATE
 							</button>

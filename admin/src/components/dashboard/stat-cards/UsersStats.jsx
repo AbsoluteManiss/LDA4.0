@@ -93,7 +93,7 @@ const UsersStats = () => {
 					<span>{Math.floor(perc)}%</span>
 				</div>
 				</div>
-				<div className="font-play text-gray-500">Compared to last month</div>
+				<div className="font-playfont-semibold text-black">Compared to last month</div>
 			</div>
 		</div>
 	)

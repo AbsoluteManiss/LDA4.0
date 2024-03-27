@@ -85,7 +85,7 @@ const TotalOrders = () => {
 					)}
 					<span>{Math.floor(perc)}%</span>
 				</div>
-				<div>Compared to last month</div>
+				<div className='font-play font-semibold text-black'>Compared to last month</div>
 			</div>
 		</div>
 	)
